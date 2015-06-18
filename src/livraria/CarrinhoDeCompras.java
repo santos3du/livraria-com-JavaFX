@@ -1,9 +1,9 @@
 package livraria;
 
+import produtos.Produto;
+
 import java.util.ArrayList;
 import java.util.List;
-
-import produtos.Produto;
 
 public class CarrinhoDeCompras {
 	

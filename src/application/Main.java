@@ -1,9 +1,6 @@
 package application;
 
-import java.io.IOException;
 import dao.ProdutoDAO;
-import produtos.Produto;
-import utilitarios.Exportador;
 import javafx.application.Application;
 import javafx.collections.ObservableList;
 import javafx.concurrent.Task;
@@ -16,8 +13,10 @@ import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
+import produtos.Produto;
+import utilitarios.Exportador;
 
-
+import java.io.IOException;
 
 @SuppressWarnings({ "unchecked", "rawtypes" })
 public class Main extends Application {

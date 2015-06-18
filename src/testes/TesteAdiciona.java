@@ -1,8 +1,8 @@
 package testes;
 
+import dao.ProdutoDAO;
 import livraria.Autor;
 import produtos.LivroFisico;
-import dao.ProdutoDAO;
 
 /**
  * Created by eduardo on 11/06/15.

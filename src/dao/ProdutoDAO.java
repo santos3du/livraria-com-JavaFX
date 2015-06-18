@@ -1,14 +1,16 @@
 package dao;
 
+import javafx.collections.ObservableList;
+import jdbc.ConnectionFactory;
+import livraria.Autor;
+import produtos.LivroFisico;
+import produtos.Produto;
+
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import produtos.LivroFisico;
-import produtos.Produto;
-import javafx.collections.ObservableList;
-import jdbc.ConnectionFactory;
-import livraria.Autor;
+
 import static javafx.collections.FXCollections.observableArrayList;
 
 public class ProdutoDAO {

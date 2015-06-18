@@ -1,13 +1,14 @@
 package utilitarios;
 
-import java.io.IOException;
-import java.io.PrintStream;
-import java.util.Arrays;
-import java.util.List;
 import livraria.Autor;
 import produtos.Livro;
 import produtos.LivroFisico;
 import produtos.Produto;
+
+import java.io.IOException;
+import java.io.PrintStream;
+import java.util.Arrays;
+import java.util.List;
 
 
 public class Exportador {
